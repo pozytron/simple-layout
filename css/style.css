@@ -11,7 +11,57 @@
 	font-weight: normal;
 	font-style: normal;
 }
-
+/*reset css*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*common styles*/
 body{
   font-family: VT323,Arial,sans-serif;
+}
+.main-width{
+	width: 800px;
+	margin: 0 auto;
+	border: 1px solid #00ff00;
+}
+.main-width::after{
+	clear: both;
+	content: "";
+	display: block;
+}
+/*styles for header*/
+header{
+	width: 100%;
+	background-color: grey;
+	font-size: 25px;
+}
+#header-logo{
+	float: left;
+}
+#header-menu{
+	float: right;
+}
+#header-menu li{
+	display: inline-block;
+}
+/*styles for slider*/
+.slider{
+	background-color: beige;
+	text-align: center;
+}
+.button{
+	background-color: grey;
+	width: 100px;
+	margin: 10px auto;
+	border-radius: 2px;
+	box-shadow: 0px 0px 3px darkgrey;
+}
+.button:hover{
+	box-shadow: none;
+}
+/*styles for sections*/
+.section-header{
+	text-align: center;
 }
