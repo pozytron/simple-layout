@@ -96,3 +96,14 @@ header{
 	text-align: center;
 	font-size: 35px;
 }
+.box p{
+	padding: 15px;
+}
+.small-box{
+	display: inline-block;
+	width: 14%;
+	margin-left: 13px;
+}
+.our-clients{
+	background-color: grey;
+}
