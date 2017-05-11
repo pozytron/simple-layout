@@ -107,3 +107,11 @@ header{
 .our-clients{
 	background-color: grey;
 }
+.super-section{
+	background-color: beige;
+}
+/*styles for footer*/
+footer{
+	width: 100%;
+	background-color: grey;
+}
