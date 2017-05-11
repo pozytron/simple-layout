@@ -68,7 +68,7 @@ header{
 .products {
 	background-color: grey;
 }
-.box{
+.medium-box{
 	width: 30%;
 	display: inline-block;
 	margin-left: 15px;
@@ -79,4 +79,10 @@ header{
 }
 .section-header h2{
 	padding-bottom: 20px;
+}
+.box{
+	vertical-align: top;
+	display: inline-block;
+	width: 49%;
+	margin: 0 auto;
 }
